@@ -22,7 +22,7 @@ const swiper = new Swiper('.swiperSlider', {
 
 const swiper2 = new Swiper(".catSwiper", {
   slidesPerView: 5,
-  spaceBetween: 16,
+  spaceBetween: 20,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -31,7 +31,7 @@ const swiper2 = new Swiper(".catSwiper", {
 
 const swiper3 = new Swiper(".blogSwiper", {
   slidesPerView: 5,
-  spaceBetween: 16,
+  spaceBetween: 20,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
