@@ -1,7 +1,7 @@
 {
     "scripts": {
         "sass": "sass --watch sass:css --style=compressed",
-        "serve": "browser-sync start --server --files 'css/*.css, *.html, js/*.js'",
+        "serve": "browser-sync start --server --files 'css/*.css, *.html'",
         "watch": "nodemon --exec npm-run-all --parallel sass serve"
     },
     "devDependencies": {

@@ -21,28 +21,54 @@ const swiper = new Swiper('.swiperSlider', {
 });
 
 const swiper2 = new Swiper(".catSwiper", {
-  slidesPerView: 5,
-  spaceBetween: 20,
+  slidesPerView: 2,
+  spaceBetween: 8,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    992: {
+      slidesPerView: 5,
+      spaceBetween: 20
+    },
+  }
 });
 
 const swiper3 = new Swiper(".blogSwiper", {
-  slidesPerView: 5,
-  spaceBetween: 20,
+  slidesPerView: 2,
+  spaceBetween: 8,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    992: {
+      slidesPerView: 5,
+      spaceBetween: 20
+    },
+  }
 });
 
 const swiper4 = new Swiper(".doitacSwiper", {
-  slidesPerView: 7,
+  slidesPerView: 3,
   spaceBetween: 16,
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
+  breakpoints: {
+    992: {
+      slidesPerView: 7,
+      spaceBetween: 16
+    },
+  }
 });
+const openMenu = () => {
+  const el = document.querySelector('.menu-mobie')
+  el.classList.add('active')
+}
+const closeMenu = () => {
+  const el = document.querySelector('.menu-mobie')
+  el.classList.remove('active')
+}
