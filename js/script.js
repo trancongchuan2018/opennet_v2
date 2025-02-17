@@ -72,3 +72,10 @@ const closeMenu = () => {
   const el = document.querySelector('.menu-mobie')
   el.classList.remove('active')
 }
+function scrollToHeader() {
+  console.log("object");
+  window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Thêm hiệu ứng cuộn mượt
+  });
+}
