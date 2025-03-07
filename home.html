@@ -1,0 +1,871 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+
+  <title>Trang chủ | Opennet</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div class="header-wrap">
+    <div class="content">
+      <header class="header">
+        <div class="logo">
+          <img src="images/logo.png" alt="Logo">
+        </div>
+        <div class="search">
+          <input class="input-search" type="text" placeholder="Tìm kiếm sản phẩm...">
+          <button class="search-icon-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+          </button>
+        </div>
+        <div class="social">
+          <a href="#" class="item i1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+          </a>
+          <a href="#" class="item i2">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+          </a>
+          <a href="#" class="item i3">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+          </a>
+          <!-- <a href="#" class="item i4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+          </a> -->
+          <a href="#" class="item i5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+          </a>
+          <a href="#" class="item i6">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+          </a>
+        </div>
+        <div class="ctr-mobi-menu mb" onclick="openMenu()">
+          <svg viewBox="64 64 896 896" focusable="false" data-icon="menu" width="1em" height="1em"
+            fill="currentColor" aria-hidden="true">
+            <path
+              d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z">
+            </path>
+          </svg>
+        </div>
+      </header>
+    </div>
+    <div class="menu-mobie mb">
+      <div class="close-mn" onclick="closeMenu()"></div>
+      <div class="mm1">
+        <div class="logo">
+          <img src="images/logo.png" alt="...">
+        </div>
+        <div class="search">
+          <input class="input-search" type="text" placeholder="Tìm kiếm sản phẩm...">
+          <button class="search-icon-btn" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+          </button>
+        </div>
+        <div class="mm1-list">
+          <div class="mm1-item">
+            <a href="#">Danh mục sản phẩm</a>
+          </div>
+          <div class="mm1-item">
+            <a href="#">Trang chủ</a>
+          </div>
+          <div class="mm1-item">
+            <a href="#">Về chúng tôi</a>
+          </div>
+          <div class="mm1-item">
+            <a href="#">Sản phẩm</a>
+          </div>
+          <div class="mm1-item">
+            <a href="#">Dịch vụ</a>
+          </div>
+          <div class="mm1-item">
+            <a href="#">Tin tức</a>
+          </div>
+          <div class="mm1-item">
+            <a href="#">Tuyển dụng</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nav-menu">
+    <div class="content">
+      <div class="nav-box">
+        <div class="col1">
+          <div class="drop-menu">
+            <div class="dr-head">
+              <div class="icon">
+                <svg viewBox="64 64 896 896" focusable="false" data-icon="menu" width="1em" height="1em"
+                  fill="currentColor" aria-hidden="true">
+                  <path
+                    d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z">
+                  </path>
+                </svg>
+              </div>
+              <div class="text">Danh mục sản phẩm</div>
+              <div class="icon-arow">
+                <svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg>
+              </div>
+            </div>
+            <div class="dr-wrap">
+              <div class="dr-list">
+                <div class="dr-item">
+                  <a href="#">Khóa Điện Tử Thông Minh</a>
+                  <div class="arow-right">
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"></path></svg>
+                  </div>
+                  <div class="wrap-sub">
+                    <div class="dr-list-sub">
+                      <div class="dr-item-sub">
+                        <a href="#">DIGITAL LOCK</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">BOSCH</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">SHARP</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">PHILIPS</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">KAADAS</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dr-item">
+                  <a href="#">Camera Quan Sát</a>
+                  <div class="arow-right">
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"></path></svg>
+                  </div>
+                  <div class="wrap-sub">
+                    <div class="dr-list-sub">
+                      <div class="dr-item-sub">
+                        <a href="#">DIGITAL LOCK</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">BOSCH</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">SHARP</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">PHILIPS</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">KAADAS</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dr-item">
+                  <a href="#">Camera Ezviz</a>
+                  <div class="arow-right">
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"></path></svg>
+                  </div>
+                  <div class="wrap-sub">
+                    <div class="dr-list-sub">
+                      <div class="dr-item-sub">
+                        <a href="#">DIGITAL LOCK</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">BOSCH</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">SHARP</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">PHILIPS</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">KAADAS</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dr-item">
+                  <a href="#">Báo Động – Báo Cháy</a>
+                  <div class="arow-right">
+                    <svg viewBox="64 64 896 896" focusable="false" data-icon="right" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M765.7 486.8L314.9 134.7A7.97 7.97 0 00302 141v77.3c0 4.9 2.3 9.6 6.1 12.6l360 281.1-360 281.1c-3.9 3-6.1 7.7-6.1 12.6V883c0 6.7 7.7 10.4 12.9 6.3l450.8-352.1a31.96 31.96 0 000-50.4z"></path></svg>
+                  </div>
+                  <div class="wrap-sub">
+                    <div class="dr-list-sub">
+                      <div class="dr-item-sub">
+                        <a href="#">DIGITAL LOCK</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">BOSCH</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">SHARP</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">PHILIPS</a>
+                      </div>
+                      <div class="dr-item-sub">
+                        <a href="#">KAADAS</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="dr-item">
+                  <a href="#">Nhà Thông Minh</a>
+                </div>
+                <div class="dr-item">
+                  <a href="#">Máy Chấm Công</a>
+                </div>
+                <div class="dr-item">
+                  <a href="#">Chuông Báo Giờ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="list-menu">
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Trang chủ</a>
+              </div>
+            </div>
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Về chúng tôi</a>
+              </div>
+            </div>
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Sản phẩm</a>
+              </div>
+            </div>
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Dịch vụ</a>
+              </div>
+            </div>
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Hổ trợ</a>
+              </div>
+            </div>
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Tin tức</a>
+              </div>
+            </div>
+            <div class="item-menu">
+              <div class="lab">
+                <a href="#">Tuyển dụng</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="swiper-show">
+    <div class="content">
+      <div class="swiper swiperSlider">
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="item-slider">
+              <img src="images/slider/bn1.jpg" alt="...">
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="item-slider">
+              <img src="images/slider/bn2.jpg" alt="...">
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="content">
+      <div class="session">
+        <div class="title-ss">
+          <div class="icon">
+            <svg fill-rule="evenodd" viewBox="64 64 896 896" focusable="false" data-icon="product" width="1em"
+              height="1em" fill="currentColor" aria-hidden="true">
+              <path
+                d="M464 144a16 16 0 0116 16v304a16 16 0 01-16 16H160a16 16 0 01-16-16V160a16 16 0 0116-16zm-52 68H212v200h200zm493.33 87.69a16 16 0 010 22.62L724.31 503.33a16 16 0 01-22.62 0L520.67 322.31a16 16 0 010-22.62l181.02-181.02a16 16 0 0122.62 0zm-84.85 11.3L713 203.53 605.52 311 713 418.48zM464 544a16 16 0 0116 16v304a16 16 0 01-16 16H160a16 16 0 01-16-16V560a16 16 0 0116-16zm-52 68H212v200h200zm452-68a16 16 0 0116 16v304a16 16 0 01-16 16H560a16 16 0 01-16-16V560a16 16 0 0116-16zm-52 68H612v200h200z">
+              </path>
+            </svg>
+          </div>
+          <div class="text">GIẢI PHÁP CÔNG NGHỆ</div>
+        </div>
+        <div class="list-post">
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Lắp Đặt Camera Gia Đình</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="session v2">
+        <div class="title-ss">
+          <div class="icon">
+            <svg viewBox="64 64 896 896" focusable="false" data-icon="deployment-unit" width="1em" height="1em"
+              fill="currentColor" aria-hidden="true">
+              <path
+                d="M888.3 693.2c-42.5-24.6-94.3-18-129.2 12.8l-53-30.7V523.6c0-15.7-8.4-30.3-22-38.1l-136-78.3v-67.1c44.2-15 76-56.8 76-106.1 0-61.9-50.1-112-112-112s-112 50.1-112 112c0 49.3 31.8 91.1 76 106.1v67.1l-136 78.3c-13.6 7.8-22 22.4-22 38.1v151.6l-53 30.7c-34.9-30.8-86.8-37.4-129.2-12.8-53.5 31-71.7 99.4-41 152.9 30.8 53.5 98.9 71.9 152.2 41 42.5-24.6 62.7-73 53.6-118.8l48.7-28.3 140.6 81c6.8 3.9 14.4 5.9 22 5.9s15.2-2 22-5.9L674.5 740l48.7 28.3c-9.1 45.7 11.2 94.2 53.6 118.8 53.3 30.9 121.5 12.6 152.2-41 30.8-53.6 12.6-122-40.7-152.9zm-673 138.4a47.6 47.6 0 01-65.2-17.6c-13.2-22.9-5.4-52.3 17.5-65.5a47.6 47.6 0 0165.2 17.6c13.2 22.9 5.4 52.3-17.5 65.5zM522 463.8zM464 234a48.01 48.01 0 0196 0 48.01 48.01 0 01-96 0zm170 446.2l-122 70.3-122-70.3V539.8l122-70.3 122 70.3v140.4zm239.9 133.9c-13.2 22.9-42.4 30.8-65.2 17.6-22.8-13.2-30.7-42.6-17.5-65.5s42.4-30.8 65.2-17.6c22.9 13.2 30.7 42.5 17.5 65.5z">
+              </path>
+            </svg>
+          </div>
+          <div class="text">VÌ SAO NÊN CHỌN OPENNET</div>
+        </div>
+        <div class="list-info">
+          <div class="item">
+            <div class="image">
+              <img src="images/post/service.webp" alt="">
+            </div>
+            <div class="des">
+              <div class="text">
+                <p style="text-align: center;"><span style="color: #282828; font-size: 17px;"><strong>GIẢI PHÁP TỐI ƯU
+                      NHẤT</strong><br></span></p>
+                <p style="text-align: justify;"><span style="font-size: 13px;">Với hơn <strong>15 năm kinh
+                      nghiệm</strong> trong lĩnh vực công nghệ, <strong>CCTV Camera</strong> tự tin mang đến những giải
+                    pháp thông minh và hiệu quả nhất, giúp khách hàng an tâm.</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/best-price.webp" alt="">
+            </div>
+            <div class="des">
+              <div class="text">
+                <p style="text-align: center;"><span style="color: #282828; font-size: 17px;"><strong>CHI PHÍ HỢP
+                      LÝ</strong></span></p>
+                <p style="text-align: justify;"><span style="font-size: 13px;">Chúng tôi đặt lợi ích của khách hàng lên
+                    hàng đầu. Với phương châm <strong>“Tất cả vì Khách Hàng, Khách Hàng cho tất cả”</strong>, cung cấp
+                    các giải pháp tối ưu với mức <strong>chi phí hợp lý.</strong></span></p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/responsible.webp" alt="">
+            </div>
+            <div class="des">
+              <div class="text">
+                <p style="text-align: center;"><span style="color: #282828; font-size: 17px;"><strong>DỊCH VỤ BẢO HÀNH
+                      TỐT NHẤT</strong></span></p>
+                <p style="text-align: justify;"><span style="font-size: 13px;">Camera CCTV sở hữu đội ngũ hơn<strong>
+                      150 kỹ thuật viên</strong> giàu kinh nghiệm, tay nghề cao, phủ khắp <strong>63 tỉnh thành</strong>
+                    trên cả nước. Chúng tôi cam kết <strong>hỗ trợ khách hàng 24/7</strong>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="session v2">
+        <div class="title-ss">
+          <div class="icon">
+            <svg viewBox="64 64 896 896" focusable="false" data-icon="star" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M908.1 353.1l-253.9-36.9L540.7 86.1c-3.1-6.3-8.2-11.4-14.5-14.5-15.8-7.8-35-1.3-42.9 14.5L369.8 316.2l-253.9 36.9c-7 1-13.4 4.3-18.3 9.3a32.05 32.05 0 00.6 45.3l183.7 179.1-43.4 252.9a31.95 31.95 0 0046.4 33.7L512 754l227.1 119.4c6.2 3.3 13.4 4.4 20.3 3.2 17.4-3 29.1-19.5 26.1-36.9l-43.4-252.9 183.7-179.1c5-4.9 8.3-11.3 9.3-18.3 2.7-17.5-9.5-33.7-27-36.3zM664.8 561.6l36.1 210.3L512 672.7 323.1 772l36.1-210.3-152.8-149L417.6 382 512 190.7 606.4 382l211.2 30.7-152.8 148.9z"></path></svg>
+          </div>
+          <div class="text">DỰ ÁN NỔI BẬT</div>
+        </div>
+        <div class="list-post v2">
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Dự án thi công Hệ Thống Camera, Thiết Bị Báo Cháy cho Bệnh Viện Đa Khoa Đông Anh</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Dự án lắp đặt Hệ Thống Camera xe bus, Máy Chấm Công cho Cty TM & DV Xây Dựng Bảo Yến</div>
+          </div>
+          <div class="item">
+            <div class="image">
+              <img src="images/post/lap-dat-camera-giam-sat-gia-dinh.webp" alt="">
+            </div>
+            <div class="title">Thi công Camera Quan Sát cho Phòng Thương Mại Và Công Nghiệp Việt Nam</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="session v2">
+        <div class="title-ss">
+          <div class="icon">
+            <svg viewBox="64 64 896 896" focusable="false" data-icon="appstore" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M464 144H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H212V212h200v200zm452-268H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V160c0-8.8-7.2-16-16-16zm-52 268H612V212h200v200zM464 544H160c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H212V612h200v200zm452-268H560c-8.8 0-16 7.2-16 16v304c0 8.8 7.2 16 16 16h304c8.8 0 16-7.2 16-16V560c0-8.8-7.2-16-16-16zm-52 268H612V612h200v200z"></path></svg>
+          </div>
+          <div class="text">DANH MỤC SẢN PHẨM</div>
+        </div>
+        <div class="swiper catSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/camera-ezviz-1.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">Camera Ezviz</a>
+                  <div class="text2">22 Sản phẩm</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="session v2">
+        <div class="title-ss">
+          <div class="icon">
+            <svg viewBox="64 64 896 896" focusable="false" data-icon="tag" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M938 458.8l-29.6-312.6c-1.5-16.2-14.4-29-30.6-30.6L565.2 86h-.4c-3.2 0-5.7 1-7.6 2.9L88.9 557.2a9.96 9.96 0 000 14.1l363.8 363.8c1.9 1.9 4.4 2.9 7.1 2.9s5.2-1 7.1-2.9l468.3-468.3c2-2.1 3-5 2.8-8zM459.7 834.7L189.3 564.3 589 164.6 836 188l23.4 247-399.7 399.7zM680 256c-48.5 0-88 39.5-88 88s39.5 88 88 88 88-39.5 88-88-39.5-88-88-88zm0 120c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z"></path></svg>
+          </div>
+          <div class="text">TIN TỨC MỚI</div>
+        </div>
+        <div class="swiper blogSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/IMG_3756.webp" alt="">
+                </div>
+                <div class="des">
+                  <a href="#" class="text1">TUYỂN DỤNG NHÂN VIÊN CHĂM SÓC KHÁCH HÀNG 2024</a>
+                  <div class="text2">MÔ TẢ CÔNG VIỆC Tiếp nhận thông tin, giải đáp thắc mắc khiếu nại của</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="session v2">
+        <div class="title-ss">
+          <div class="icon">
+            <svg viewBox="64 64 896 896" focusable="false" data-icon="user-switch" width="1em" height="1em" fill="currentColor" aria-hidden="true"><defs><style></style></defs><path d="M759 335c0-137-111-248-248-248S263 198 263 335c0 82.8 40.6 156.2 103 201.2-.4.2-.7.3-.9.4-44.7 18.9-84.8 46-119.3 80.6a373.42 373.42 0 00-80.4 119.5A373.6 373.6 0 00136 874.8a8 8 0 008 8.2h59.9c4.3 0 7.9-3.5 8-7.8 2-77.2 32.9-149.5 87.6-204.3C356 614.2 431 583 511 583c137 0 248-111 248-248zM511 507c-95 0-172-77-172-172s77-172 172-172 172 77 172 172-77 172-172 172zm105 221h264c4.4 0 8-3.6 8-8v-56c0-4.4-3.6-8-8-8H703.5l47.2-60.1a8.1 8.1 0 001.7-4.9c0-4.4-3.6-8-8-8h-72.6c-4.9 0-9.5 2.3-12.6 6.1l-68.5 87.1c-4.4 5.6-6.8 12.6-6.8 19.8.1 17.7 14.4 32 32.1 32zm240 64H592c-4.4 0-8 3.6-8 8v56c0 4.4 3.6 8 8 8h176.5l-47.2 60.1a8.1 8.1 0 00-1.7 4.9c0 4.4 3.6 8 8 8h72.6c4.9 0 9.5-2.3 12.6-6.1l68.5-87.1c4.4-5.6 6.8-12.6 6.8-19.8-.1-17.7-14.4-32-32.1-32z"></path></svg>
+          </div>
+          <div class="text">ĐỐI TÁC</div>
+        </div>
+        <div class="swiper doitacSwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="item-pord">
+                <div class="image">
+                  <img src="images/pord/lap-dat-camera-dahua-300x75.png" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <div class="contact">
+        <div class="col1">
+          <div class="t1">Địa chỉ lắp đặt mạng</div>
+          <div class="t2">
+            <div class="t2_1"><b>Địa chỉ lắp đặt mạng Viettel:</b></div>
+            <div class="t2_2">160 Đường số 2, KDT Vạn Phúc, P. Hiệp Bình Phước, Q. Thủ Đức, TPHCM</div>
+          </div>
+        </div>
+        <div class="col2">
+          <div class="t1">Liên hệ tư vấn</div>
+          <div class="form-contact">
+            <div class="form-item">
+              <input type="text" placeholder="Tên quý khách">
+            </div>
+            <div class="form-item">
+              <input type="text" placeholder="Điện thoại">
+            </div>
+            <div class="form-item">
+              <input type="text" placeholder="Địa chỉ lắp đặt">
+            </div>
+            <div class="form-item">
+              <input type="text" placeholder="Tên gói cước">
+            </div>
+            <div class="form-item">
+              <button class="btn-send">Gửi thông tin</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
+    <div class="content">
+      <div class="foot">
+        <div class="col1">
+          <div class="logo">
+            <img src="images/logo.png" alt="">
+          </div>
+          <div class="t1">CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ OPENNET</div>
+          <div class="t2">
+            <b>Điện thoại: </b>
+            <span>+84 287 109 2299</span>
+          </div>
+          <div class="t2">
+            <b>Email: </b>
+            <span>info@opennet.vn</span>
+          </div>
+          <div class="t2">
+            <b>Địa chỉ: </b>
+            <span>28/1 Đường 53, KP 8, P. Hiệp Bình Chánh, TP Thủ Đức</span>
+          </div>
+        </div>
+        <div class="col2">
+          <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.5833341417247!2d106.73146871116057!3d10.843164157913465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527dac0b25bdb%3A0x3dfdb34f947ecf04!2zMjgvMTkgxJAuIDUzLCBIaeG7h3AgQsOsbmggQ2jDoW5oLCBUaOG7pyDEkOG7qWMsIEjhu5MgQ2jDrSBNaW5oLCBWaWV0bmFt!5e0!3m2!1sen!2s!4v1735826238593!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="col3">
+          <div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0&appId=1256277581215699"></script>
+          <div class="fb-page" data-href="https://www.facebook.com/opennetvn" data-tabs="" data-width="500" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/opennetvn" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/opennetvn">Opennet</a></blockquote></div>
+          <div class="social">
+            <a href="#" class="item i1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M80 299.3V512H196V299.3h86.5l18-97.8H196V166.9c0-51.7 20.3-71.5 72.7-71.5c16.3 0 29.4 .4 37 1.2V7.9C291.4 4 256.4 0 236.2 0C129.3 0 80 50.5 80 159.4v42.1H14v97.8H80z"/></svg>
+            </a>
+            <a href="#" class="item i2">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M448 209.9a210.1 210.1 0 0 1 -122.8-39.3V349.4A162.6 162.6 0 1 1 185 188.3V278.2a74.6 74.6 0 1 0 52.2 71.2V0l88 0a121.2 121.2 0 0 0 1.9 22.2h0A122.2 122.2 0 0 0 381 102.4a121.4 121.4 0 0 0 67 20.1z"/></svg>
+            </a>
+            <a href="#" class="item i3">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
+            </a>
+            <!-- <a href="#" class="item i4">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"/></svg>
+            </a> -->
+            <a href="#" class="item i5">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"/></svg>
+            </a>
+            <a href="#" class="item i6">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48L48 64zM0 176L0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-208L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="write-foot">© 2025 Opennet.vn | CÔNG TY TNHH GIẢI PHÁP CÔNG NGHỆ OPENNET</div>
+  <div class="on">
+    <a href="tel:0777621381" class="on-link on-phone" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M280 0C408.1 0 512 103.9 512 232c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-101.6-82.4-184-184-184c-13.3 0-24-10.7-24-24s10.7-24 24-24zm8 192a32 32 0 1 1 0 64 32 32 0 1 1 0-64zm-32-72c0-13.3 10.7-24 24-24c75.1 0 136 60.9 136 136c0 13.3-10.7 24-24 24s-24-10.7-24-24c0-48.6-39.4-88-88-88c-13.3 0-24-10.7-24-24zM117.5 1.4c19.4-5.3 39.7 4.6 47.4 23.2l40 96c6.8 16.3 2.1 35.2-11.6 46.3L144 207.3c33.3 70.4 90.3 127.4 160.7 160.7L345 318.7c11.2-13.7 30-18.4 46.3-11.6l96 40c18.6 7.7 28.5 28 23.2 47.4l-24 88C481.8 499.9 466 512 448 512C200.6 512 0 311.4 0 64C0 46 12.1 30.2 29.5 25.4l88-24z"/></svg>
+    </a>
+  
+    <a href="https://zalo.me/0777621381" class="on-zalo" target="_blank">
+      <img src="images/icons/icons8-zalo.svg" alt="icon" />
+    </a>
+  
+    <a href="#" class="on-mess" target="_blank">
+      <img src="images/icons/icons8-facebook-messenger.svg" alt="icon" />
+    </a>
+  
+    <div class="on-link" onclick="scrollToHeader()">
+      <svg id="arrowstop-1-n_1_" xmlns="http://www.w3.org/2000/svg" width="22" height="30" viewBox="0 0 22 30">
+        <path
+          id="Path_7662"
+          data-name="Path 7662"
+          d="M109.786,104.267a1.583,1.583,0,0,1-1.117-.466l-7.785-7.685L93.1,103.8a1.585,1.585,0,0,1-2.186-.4,1.536,1.536,0,0,1-.031-1.708L99.768,92.9a1.587,1.587,0,0,1,2.224-.009L102,92.9l8.885,8.788a1.539,1.539,0,0,1,0,2.189A1.585,1.585,0,0,1,109.786,104.267Z"
+          transform="translate(-89.886 -87.583)"
+          fill="#fff"
+        ></path>
+        <path id="Path_7663" data-name="Path 7663" d="M259.669,115.941a1.553,1.553,0,0,1-1.553-1.553V92.653a1.553,1.553,0,0,1,3.105,0v21.736A1.553,1.553,0,0,1,259.669,115.941Z" transform="translate(-248.669 -85.941)" fill="#fff"></path>
+        <path
+          id="Path_7664"
+          data-name="Path 7664"
+          d="M96.345,3.105H77.487a1.562,1.562,0,0,1-1.571-1.553A1.562,1.562,0,0,1,77.487,0H96.345a1.562,1.562,0,0,1,1.571,1.553A1.562,1.562,0,0,1,96.345,3.105Z"
+          transform="translate(-75.916 0)"
+          fill="#fff"
+        ></path>
+      </svg>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
