@@ -271,28 +271,29 @@
     </div>
   </div>
 
-  <div class="main">
+  <div class="main intro">
+    <div class="session banner">
+      <img src="images/solutionhome-banner.jpg" alt="...">
+      <h2 class="text">Giải pháp Toàn diện, Đáng tin cậy, Chuyên nghiệp và Hiệu quả</h2>
+    </div>
     <div class="content">
-      <div class="session banner">
-        <img src="images/solutionhome-banner.jpg" alt="...">
-        <h2 class="text">Giải pháp Toàn diện, Đáng tin cậy, Chuyên nghiệp và Hiệu quả</h2>
-      </div>
-
       <div class="session intro">
         <div class="tab-head">
-          <div class="tab-item">Theo Kịch Bản Sử Dụng</div>
+          <div class="tab-item active">Theo Kịch Bản Sử Dụng</div>
           <div class="tab-item">Theo Công Nghệ</div>
         </div>
         <div class="tab-content">
-          <div class="item-content">
+          <div class="item-content active">
             <div class="list-box">
               <div class="item">
                 <div class="img">
                   <img src="images/solutionhome-units.jpg" alt="...">
                 </div>
-                <div class="title">Nhà ở/ Ký túc xá</div>
-                <div class="link">
-                  <a href="#">Tìm hiểu thêm</a>
+                <div class="de-box">
+                  <div class="title">Nhà ở/ Ký túc xá</div>
+                  <div class="link">
+                    <a href="#">Tìm hiểu thêm</a>
+                  </div>
                 </div>
               </div>
 
@@ -300,9 +301,11 @@
                 <div class="img">
                   <img src="images/solutionhome-units.jpg" alt="...">
                 </div>
-                <div class="title">Nhà ở/ Ký túc xá</div>
-                <div class="link">
-                  <a href="#">Tìm hiểu thêm</a>
+                <div class="de-box">
+                  <div class="title">Nhà ở/ Ký túc xá</div>
+                  <div class="link">
+                    <a href="#">Tìm hiểu thêm</a>
+                  </div>
                 </div>
               </div>
 
@@ -310,29 +313,35 @@
                 <div class="img">
                   <img src="images/solutionhome-units.jpg" alt="...">
                 </div>
-                <div class="title">Nhà ở/ Ký túc xá</div>
-                <div class="link">
-                  <a href="#">Tìm hiểu thêm</a>
+                <div class="de-box">
+                  <div class="title">Nhà ở/ Ký túc xá</div>
+                  <div class="link">
+                    <a href="#">Tìm hiểu thêm</a>
+                  </div>
                 </div>
               </div>
 
-              <div class="item">
+              <div class="item has-sub">
                 <div class="item-sub">
                   <div class="img">
                     <img src="images/solutionhome-units.jpg" alt="...">
                   </div>
-                  <div class="title">Nhà ở/ Ký túc xá</div>
-                  <div class="link">
-                    <a href="#">Tìm hiểu thêm</a>
+                  <div class="de-box">
+                    <div class="title">Nhà ở/ Ký túc xá</div>
+                    <div class="link">
+                      <a href="#">Tìm hiểu thêm</a>
+                    </div>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item-sub">
                   <div class="img">
                     <img src="images/solutionhome-units.jpg" alt="...">
                   </div>
-                  <div class="title">Nhà ở/ Ký túc xá</div>
-                  <div class="link">
-                    <a href="#">Tìm hiểu thêm</a>
+                  <div class="de-box">
+                    <div class="title">Nhà ở/ Ký túc xá</div>
+                    <div class="link">
+                      <a href="#">Tìm hiểu thêm</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -443,27 +452,168 @@
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="session dad">
+    <div class="session dad">
+      <div class="content">
         <div class="title">Giải pháp Omada mang lại gì cho bạn?</div>
         <div class="slogan">Omada mang đến giải pháp mạng ổn định và đáng tin cậy cho khách sạn, khu dân cư... trên toàn thế giới. Hãy nói ra nhu cầu của bạn và phần còn lại cứ để chúng tôi lo.</div>
         <div class="tab-group">
-          <div class="tab-h">
-            <div class="item">Giải pháp toàn diện</div>
-            <div class="item">Hỗ trợ chuyên nghiệp</div>
-            <div class="item">Dễ dàng quản lý</div>
-            <div class="item">Độ ổn định cao</div>
+          <div class="tab-h" id="tabs">
+            <div class="item active tab" onclick="openTab(event, 'content1')">Giải pháp toàn diện</div>
+            <div class="item tab" onclick="openTab(event, 'content2')">Hỗ trợ chuyên nghiệp</div>
+            <div class="item tab" onclick="openTab(event, 'content3')">Dễ dàng quản lý</div>
+            <div class="item tab" onclick="openTab(event, 'content4')">Độ ổn định cao</div>
           </div>
-          <div class="tab-main">
-            <div class="tab-content v1">
+          <div class="tab-main" id="contents">
+            <div id="content1" class="tab-content v1 active">
               <div class="rowx">
                 <div class="left-col">
                   <div class="title">Giải pháp Toàn diện, Đáng tin cậy, Chuyên nghiệp và Hiệu quả</div>
                   <div class="sum">Omada mang đến các giải pháp end-to-end đáng tin cậy..</div>
-                  <div class="link">Liên hệ chúng tôi</div>
+                  <div class="link">
+                    <a href="#">Liên hệ chúng tôi</a>
+                  </div>
                 </div>
-                <div class="right-col"></div>
+                <div class="right-col">
+                  <div class="list-res">
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                  </div>
+                </div>
               </div>
+            </div>
+
+            <div id="content2" class="tab-content v2">
+              <div class="rowx">
+                <div class="left-col">
+                  <div class="title">Giải pháp Toàn diện, Đáng tin cậy, Chuyên nghiệp và Hiệu quả</div>
+                  <div class="sum">Omada mang đến các giải pháp end-to-end đáng tin cậy..</div>
+                  <div class="link"><a href="#">Liên hệ chúng tôi</a></div>
+                </div>
+                <div class="right-col">
+                  <div class="list-res">
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div id="content3" class="tab-content v3">
+              <div class="rowx">
+                <div class="left-col">
+                  <div class="title">Giải pháp Toàn diện, Đáng tin cậy, Chuyên nghiệp và Hiệu quả</div>
+                  <div class="sum">Omada mang đến các giải pháp end-to-end đáng tin cậy..</div>
+                  <div class="link"><a href="#">Liên hệ chúng tôi</a></div>
+                </div>
+                <div class="right-col">
+                  <img src="images/solutionhome-EM.png" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div id="content4" class="tab-content v4">
+              <div class="rowx">
+                <div class="left-col">
+                  <div class="title">Giải pháp Toàn diện, Đáng tin cậy, Chuyên nghiệp và Hiệu quả</div>
+                  <div class="sum">Omada mang đến các giải pháp end-to-end đáng tin cậy..</div>
+                  <div class="link"><a href="#">Liên hệ chúng tôi</a></div>
+                </div>
+                <div class="right-col">
+                  <div class="list-res">
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                    <div class="item-a">
+                      <div class="img"><img src="images/solutionhome-SS.svg" alt=""></div>
+                      <div class="title">Khảo sát Hiện trường</div>
+                      <div class="sum">Khảo sát tại hiện trường một cách chuyên nghiệp để đánh giá nhu cầu mạng đặc thù của khách hàng</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+      <div class="session photo">
+        <div class="title">
+          <div class="text">Case Study</div>
+        </div>
+        <div class="list-res">
+          <div class="item-s">
+            <div class="img">
+              <img src="images/solutionhome-school.jpg" alt="">
+            </div>
+            <div class="title">Omada Ghi điểm Tuyệt đối với Hệ thống Mạng Wi-Fi tại Giải Golf Từ thiện BMW</div>
+            <div class="sum">Mạng cáp quang mở rộng cho điểm bán hàng hỗ trợ kết nối Mesh ngoài trời tốc độ cao và mật độ lớn.</div>
+            <div class="link">
+              <a href="#">Tìm hiểu thêm</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="session contact">
+        <div class="list-ct">
+          <div class="item-c">
+            <div class="img">
+              <img src="images/solutionhome-CS.svg" alt="">
+            </div>
+            <div class="link">
+              <a href="#">Liên hệ Sales</a>
             </div>
           </div>
         </div>

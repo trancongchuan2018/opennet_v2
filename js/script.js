@@ -79,3 +79,21 @@ function scrollToHeader() {
       behavior: "smooth", // Thêm hiệu ứng cuộn mượt
   });
 }
+
+function openTab(event, tabId) {
+  // Ẩn tất cả nội dung tab
+  document.querySelectorAll('.tab-content').forEach(content => {
+      content.classList.remove('active');
+  });
+  
+  // Bỏ active trên tất cả tab
+  document.querySelectorAll('.tab').forEach(tab => {
+      tab.classList.remove('active');
+  });
+  
+  // Hiển thị nội dung tab được chọn
+  document.getElementById(tabId).classList.add('active');
+  
+  // Thêm active vào tab được click
+  event.currentTarget.classList.add('active');
+}
