@@ -76,24 +76,28 @@ function scrollToHeader() {
   console.log("object");
   window.scrollTo({
       top: 0,
-      behavior: "smooth", // Thêm hiệu ứng cuộn mượt
+      behavior: "smooth",
   });
 }
 
 function openTab(event, tabId) {
-  // Ẩn tất cả nội dung tab
   document.querySelectorAll('.tab-content').forEach(content => {
-      content.classList.remove('active');
+    content.classList.remove('active');
   });
-  
-  // Bỏ active trên tất cả tab
   document.querySelectorAll('.tab').forEach(tab => {
-      tab.classList.remove('active');
+    tab.classList.remove('active');
   });
-  
-  // Hiển thị nội dung tab được chọn
   document.getElementById(tabId).classList.add('active');
-  
-  // Thêm active vào tab được click
+  event.currentTarget.classList.add('active');
+}
+
+function openTab2(event, tabId) {
+  document.querySelectorAll('.tab-content2').forEach(content => {
+    content.classList.remove('active');
+  });
+  document.querySelectorAll('.tab2').forEach(tab => {
+    tab.classList.remove('active');
+  });
+  document.getElementById(tabId).classList.add('active');
   event.currentTarget.classList.add('active');
 }

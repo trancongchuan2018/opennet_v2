@@ -1092,7 +1092,7 @@ input {
 
   .session.dad{
     margin-top: 7em;
-    background-image: url('/images/solutionhome-functions.jpg');
+    background-image: url('solutionhome-functions.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -1270,5 +1270,128 @@ input {
         }
       }
     }
+  }
+
+  .session.photo{
+    margin-top: 7em;
+    >.title{
+      display: flex;
+      justify-content: space-between;
+      font-size: 32px;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+      .more-btn{
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        a{
+          font-size: 20px;
+          color: var(--color-primary);
+        }
+      }
+    }
+    .list-res{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 24px;
+      .item-s{
+        .title{
+          font-size: 20px;
+          line-height: 1.2em;
+          padding-top: 12px;
+          padding-bottom: 12px;
+        }
+        .link{
+          margin-top: 12px;
+          a{
+            color: var(--color-primary);
+          }
+        }
+      }
+    }
+  }
+  .session.contactx{
+    margin-top: 7em;
+    >.title{
+      display: flex;
+      justify-content: space-between;
+      font-size: 32px;
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 24px;
+      padding-bottom: 8px;
+    }
+    .list-ct{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+    .item-c{
+      text-align: center;
+      .link{
+        margin-top: 24px;
+        font-size: 24px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .main.intro .session.banner .text{
+    font-size: 32px;
+    line-height: 1.2em;
+  }
+  .main.intro .session.dad .tab-h{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main.intro .tab-content .list-box{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .main.intro .tab-content .list-box .item.has-sub{
+    display: none;
+  }
+  .main.intro .session.dad .tab-h{
+    flex-direction: column;
+  }
+  .main.intro .session.dad{
+    background-size: 100% 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main.intro .session.banner .text{
+    font-size: 16px;
+  }
+  .main.intro .tab-head{
+    font-size: 16px;
+    gap: 16px;
+  }
+  .main.intro .tab-content .list-box,
+  .main.intro .session.tech .list-data,
+  .main.intro .session.dad .tab-content.v1 .rowx,
+  .main.intro .session.dad .tab-content.v1 .rowx .list-res,
+  .main.intro .session.dad .tab-content.v2 .rowx,
+  .main.intro .session.dad .tab-content.v2 .rowx .list-res,
+  .main.intro .session.dad .tab-content.v3 .rowx,
+  .main.intro .session.dad .tab-content.v3 .rowx .list-res,
+  .main.intro .session.dad .tab-content.v4 .rowx,
+  .main.intro .session.dad .tab-content.v4 .rowx .list-res,
+  .main.intro .session.photo .list-res,
+  .main.intro .session.contactx .list-ct{
+    grid-template-columns: 1fr;
+  }
+  .main.intro .session.dad .tab-content{
+    height: auto;
+    padding: 12px;
+  }
+  .main.intro .session.contactx .list-ct{
+    gap: 24px;
+  }
+  .main.intro .session.intro, .main.intro .session.tech{
+    margin-top: 32px;
+  }
+  .main.intro .session.tech>.title{
+    font-size: 16px;
   }
 }

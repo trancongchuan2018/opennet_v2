@@ -278,12 +278,12 @@
     </div>
     <div class="content">
       <div class="session intro">
-        <div class="tab-head">
-          <div class="tab-item active">Theo Kịch Bản Sử Dụng</div>
-          <div class="tab-item">Theo Công Nghệ</div>
+        <div class="tab-head" id="tabs2">
+          <div class="tab-item tab2 active" onclick="openTab2(event, 'content21')">Theo Kịch Bản Sử Dụng</div>
+          <div class="tab-item tab2" onclick="openTab2(event, 'content22')">Theo Công Nghệ</div>
         </div>
         <div class="tab-content">
-          <div class="item-content active">
+          <div id="content21" class="item-content tab-content2 active">
             <div class="list-box">
               <div class="item">
                 <div class="img">
@@ -347,15 +347,17 @@
               </div>
             </div>
           </div>
-          <div class="item-content">
+          <div id="content22" class="item-content tab-content2">
             <div class="list-box">
               <div class="item">
                 <div class="img">
                   <img src="images/solutionhome-units.jpg" alt="...">
                 </div>
-                <div class="title">Nhà ở/ Ký túc xá</div>
-                <div class="link">
-                  <a href="#">Tìm hiểu thêm</a>
+                <div class="de-box">
+                  <div class="title">Nhà ở/ Ký túc xá</div>
+                  <div class="link">
+                    <a href="#">Tìm hiểu thêm</a>
+                  </div>
                 </div>
               </div>
 
@@ -363,9 +365,11 @@
                 <div class="img">
                   <img src="images/solutionhome-units.jpg" alt="...">
                 </div>
-                <div class="title">Nhà ở/ Ký túc xá</div>
-                <div class="link">
-                  <a href="#">Tìm hiểu thêm</a>
+                <div class="de-box">
+                  <div class="title">Nhà ở/ Ký túc xá</div>
+                  <div class="link">
+                    <a href="#">Tìm hiểu thêm</a>
+                  </div>
                 </div>
               </div>
 
@@ -373,29 +377,35 @@
                 <div class="img">
                   <img src="images/solutionhome-units.jpg" alt="...">
                 </div>
-                <div class="title">Nhà ở/ Ký túc xá</div>
-                <div class="link">
-                  <a href="#">Tìm hiểu thêm</a>
+                <div class="de-box">
+                  <div class="title">Nhà ở/ Ký túc xá</div>
+                  <div class="link">
+                    <a href="#">Tìm hiểu thêm</a>
+                  </div>
                 </div>
               </div>
 
-              <div class="item">
+              <div class="item has-sub">
                 <div class="item-sub">
                   <div class="img">
                     <img src="images/solutionhome-units.jpg" alt="...">
                   </div>
-                  <div class="title">Nhà ở/ Ký túc xá</div>
-                  <div class="link">
-                    <a href="#">Tìm hiểu thêm</a>
+                  <div class="de-box">
+                    <div class="title">Nhà ở/ Ký túc xá</div>
+                    <div class="link">
+                      <a href="#">Tìm hiểu thêm</a>
+                    </div>
                   </div>
                 </div>
-                <div class="item">
+                <div class="item-sub">
                   <div class="img">
                     <img src="images/solutionhome-units.jpg" alt="...">
                   </div>
-                  <div class="title">Nhà ở/ Ký túc xá</div>
-                  <div class="link">
-                    <a href="#">Tìm hiểu thêm</a>
+                  <div class="de-box">
+                    <div class="title">Nhà ở/ Ký túc xá</div>
+                    <div class="link">
+                      <a href="#">Tìm hiểu thêm</a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -591,8 +601,34 @@
       <div class="session photo">
         <div class="title">
           <div class="text">Case Study</div>
+          <div class="more-btn">
+            <a href="#">Xem thêm</a>
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"><path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" d="M8.91 19.92l6.52-6.52c.77-.77.77-2.03 0-2.8L8.91 4.08"></path></svg>
+            </div>
+          </div>
         </div>
         <div class="list-res">
+          <div class="item-s">
+            <div class="img">
+              <img src="images/solutionhome-school.jpg" alt="">
+            </div>
+            <div class="title">Omada Ghi điểm Tuyệt đối với Hệ thống Mạng Wi-Fi tại Giải Golf Từ thiện BMW</div>
+            <div class="sum">Mạng cáp quang mở rộng cho điểm bán hàng hỗ trợ kết nối Mesh ngoài trời tốc độ cao và mật độ lớn.</div>
+            <div class="link">
+              <a href="#">Tìm hiểu thêm</a>
+            </div>
+          </div>
+          <div class="item-s">
+            <div class="img">
+              <img src="images/solutionhome-school.jpg" alt="">
+            </div>
+            <div class="title">Omada Ghi điểm Tuyệt đối với Hệ thống Mạng Wi-Fi tại Giải Golf Từ thiện BMW</div>
+            <div class="sum">Mạng cáp quang mở rộng cho điểm bán hàng hỗ trợ kết nối Mesh ngoài trời tốc độ cao và mật độ lớn.</div>
+            <div class="link">
+              <a href="#">Tìm hiểu thêm</a>
+            </div>
+          </div>
           <div class="item-s">
             <div class="img">
               <img src="images/solutionhome-school.jpg" alt="">
@@ -606,8 +642,29 @@
         </div>
       </div>
 
-      <div class="session contact">
+      <div class="session contactx">
+        <div class="title">
+          <div class="text">Liên hệ chúng tôi</div>
+        </div>
         <div class="list-ct">
+          <div class="item-c">
+            <div class="img">
+              <img src="images/solutionhome-CS.svg" alt="">
+            </div>
+            <div class="link">
+              <a href="#">Liên hệ Sales</a>
+            </div>
+          </div>
+
+          <div class="item-c">
+            <div class="img">
+              <img src="images/solutionhome-CS.svg" alt="">
+            </div>
+            <div class="link">
+              <a href="#">Liên hệ Sales</a>
+            </div>
+          </div>
+
           <div class="item-c">
             <div class="img">
               <img src="images/solutionhome-CS.svg" alt="">
